@@ -1,9 +1,9 @@
 import React from 'react';
-import './ItemListContainer.css'; // Importa el archivo CSS para los estilos
+import './ItemListContainer.scss'; // Importa el archivo CSS para los estilos
 
-const ItemListContainer = ({saludo}) => {
+const ItemListContainer = ({ saludo }) => {
 
-    return(
+    return (
         <div className="item-list-container">
             <p>{saludo}</p>
         </div>
